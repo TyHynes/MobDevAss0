@@ -88,7 +88,9 @@ export default function App() {
             <View>
               {/* Banner */}
               <View style={styles.bannerContainer}>
-                <Image source={{ uri: USER_PROFILE.banner }} style={styles.banner} />
+                <Image
+                  source={typeof USER_PROFILE.banner === 'string' ? { uri: USER_PROFILE.banner } : USER_PROFILE.banner}
+                  style={styles.banner} />
               </View>
 
               {/* Profile Info */}
@@ -226,6 +228,7 @@ const styles = StyleSheet.create({
     borderRadius: 40,
     borderWidth: 4,
     borderColor: "black",
+    backgroundColor: "white", // Added for transparent images
   },
   followButton: {
     backgroundColor: "white",
@@ -349,6 +352,7 @@ const styles = StyleSheet.create({
     height: 40,
     borderRadius: 20,
     marginRight: 12,
+    backgroundColor: "white", // Added for transparent images
   },
   tweetContentColumn: {
     flex: 1

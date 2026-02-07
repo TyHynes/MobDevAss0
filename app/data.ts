@@ -44,7 +44,7 @@ export const USER_PROFILE: UserProfile = {
   following: 1234,
   followers: "10.5K",
   avatar: require("../assets/UserImages/Profile.png"),
-  banner: "https://via.placeholder.com/600x200",
+  banner: require("../assets/UserImages/Banner.jpg"),
 };
 
 export const TWEETS: Tweet[] = [
