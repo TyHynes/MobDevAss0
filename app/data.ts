@@ -43,7 +43,7 @@ export const USER_PROFILE: UserProfile = {
   joined: "March 2026",
   following: 1234,
   followers: "10.5K",
-  avatar: require("../assets/UserImages/Profile.png"), // Correct local asset usage
+  avatar: require("../assets/UserImages/Profile.png"),
   banner: "https://via.placeholder.com/600x200",
 };
 
@@ -54,7 +54,7 @@ export const TWEETS: Tweet[] = [
     user: {
       name: "Chomper",
       handle: "@chomper_official",
-      avatar: require("../assets/UserImages/Profile.png"), // Correct local asset usage
+      avatar: require("../assets/UserImages/Profile.png"),
     },
     content: "Pinned Tweet: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco. \n\n#LoremIpsum",
     timestamp: "28 May 26",
@@ -70,7 +70,7 @@ export const TWEETS: Tweet[] = [
     user: {
       name: "Chomper User",
       handle: "@chomper_official",
-      avatar: "https://via.placeholder.com/100",
+      avatar: require("../assets/UserImages/Profile.png"),
     },
     content: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     timestamp: "2h",
@@ -86,7 +86,7 @@ export const TWEETS: Tweet[] = [
     user: {
       name: "Chomper User",
       handle: "@chomper_official",
-      avatar: "https://via.placeholder.com/100",
+      avatar: require("../assets/UserImages/Profile.png"),
     },
     content: "Sunt in culpa qui officia deserunt mollit anim id est laborum. \n\nhttps://example.com/link",
     timestamp: "5h",
@@ -102,7 +102,7 @@ export const TWEETS: Tweet[] = [
     user: {
       name: "Chomper User",
       handle: "@chomper_official",
-      avatar: "https://via.placeholder.com/100",
+      avatar: require("../assets/UserImages/Profile.png"),
     },
     content: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
     timestamp: "1d",
